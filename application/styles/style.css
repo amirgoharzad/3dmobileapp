@@ -1,0 +1,66 @@
+@font-face {
+    font-family: cocaColaFont;
+    src: url(../../assets/fonts/CocaColaLogoFont/CocaColaa.ttf);
+}
+
+@font-face {
+    font-family: koulenRegular;
+    src: url(../../assets/fonts/regular/Koulen-Regular.ttf);
+}
+
+html, body {
+    background-color: #F1EEE9;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.aboutContainer {
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 40px;
+    font-family: koulenRegular;
+    background: linear-gradient(
+            rgba(68, 68, 68, 0.9),
+            rgba(68, 68, 68, 0.9)
+    ),
+        /* bottom, image */ url(../../assets/images/landing_assets/coca1.jpg);
+    background-size: cover;
+}
+
+.cocaLogo {
+    margin-top: 3px;
+}
+
+.cocaLogo h1 {
+    font-family: cocaColaFont;
+    font-size: 50px;
+}
+
+.videoContainer {
+    width: 100%;
+    height: 200px;
+}
+
+.brandsCard {
+    width: 100%;
+    height: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    background: #760003;
+}
+
+#footer {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+
+
+
