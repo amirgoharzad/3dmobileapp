@@ -327,7 +327,7 @@
         <a href="https://www.instagram.com/cocacolaau" style="margin-left: 10px">
             <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://github.com/amirgoharzad/mobile3dapp" style="margin-left: 10px" target="_blank">
+        <a href="https://github.com/amirgoharzad/3dmobileapp" style="margin-left: 10px" target="_blank">
             <i class="fa-brands fa-github"></i>
         </a>
     </div>
