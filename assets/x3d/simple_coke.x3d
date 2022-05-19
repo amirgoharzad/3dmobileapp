@@ -39,7 +39,7 @@
 							          shininess="0.500"
 							          transparency="0.0"
 							          />
-							          <ImageTexture url="texttures/simple_coke.png"/>
+							          <ImageTexture url="texttures/new/blackCoca.jpeg"/>
 						</Appearance>
 						<IndexedFaceSet solid="false"
 						                creaseAngle="0.5236"

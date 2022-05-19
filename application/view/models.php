@@ -62,16 +62,16 @@
         <a id="cokeButton" class="nav-link active" href="#">CocaColaZero</a>
     </li>
     <li class="nav-item">
-        <a id="ziroButton" class="nav-link" style="background-color: #EB5353; color: white;" href="#">Coke</a>
+        <a id="ziroButton" class="nav-link" style="background-color: #EB5353; color: white;" href="#">DietCoke</a>
     </li>
-    <li class="nav-item">
-        <a id="simpleCokeButton" class="nav-link" style="background-color: #F9D923; color: white;" href="#">CocaCola</a>
-    </li>
+<!--    <li class="nav-item">-->
+<!--        <a id="simpleCokeButton" class="nav-link" style="background-color: #F9D923; color: white;" href="#">CocaCola</a>-->
+<!--    </li>-->
     <li class="nav-item">
         <a id="spriteButton" class="nav-link" style="background-color: #36AE7C; color: white;" href="#">Sprite</a>
     </li>
     <li class="nav-item">
-        <a id="pepperButton" class="nav-link" style="background-color: #187498; color: white;" href="#">DrPopper</a>
+        <a id="pepperButton" class="nav-link" style="background-color: #187498; color: white;" href="#">DrPepper</a>
     </li>
 </ul>
 
@@ -290,7 +290,7 @@
         <br>
         <br>
         <h3>
-            sprite 3d model
+            Sprite 3d model
         </h3>
         <br>
         <h5>
@@ -308,12 +308,37 @@
 
 <div id="pepper" class="row">
     <div class="col-xl-8 col-md-12">
-        <x3d id="simpleCokeFrame" width="100%" height="500px">
+        <x3d id="pepperFrame" width="100%" height="500px">
             <scene>
                 <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();"
                         url="<?= base_url ?>assets/x3d/pepper.x3d"></inline>
             </scene>
         </x3d>
+    </div>
+    <div class="col-xl-4 col-md-12" style="border: 2px solid #EB5353">
+        <h3>
+            WireFrame
+        </h3>
+        <row>
+            <col>
+            <button onclick="pepperFrame();" style="background-color: #EB5353; color: white; width: 200px"
+                    class="m-1">
+                wireframe
+            </button>
+            <col/>
+        </row>
+        <br>
+        <br>
+        <h3>
+            Dr Pepper 3d model
+        </h3>
+        <br>
+        <h5>
+            This X3D model of the Dr Pepper has been created in Cinema 4D, exported to VRML97 and converted using the
+            Blender to X3D for display online.
+        </h5>
+        <br>
+        <br>
     </div>
 </div>
 <footer class="mt-auto" id="footerColor">

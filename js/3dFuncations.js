@@ -59,6 +59,12 @@ function spriteFrame()
 	e.runtime.togglePoints(true);
 }
 
+function pepperFrame() {
+	var e = document.getElementById('pepperFrame');
+	e.runtime.togglePoints(true);
+	e.runtime.togglePoints(true);
+}
+
 
 var lightOn = true;
 

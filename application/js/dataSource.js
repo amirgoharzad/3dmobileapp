@@ -1,4 +1,4 @@
-let baseUrl = "https://users.sussex.ac.uk/~ag673/3dapp/assignment/";
+let baseUrl = "http://localhost:8888/3dapp/";
 $(document).ready(function () {
     $.getJSON(baseUrl +'data/texts.json', function (jsonObj) {
         $('#coke_card_title').html('<h5 >' + jsonObj.pageTextData[0].title + '<h5>');

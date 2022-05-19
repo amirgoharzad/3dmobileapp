@@ -58,7 +58,6 @@
 </nav>
 
 
-
 <div class="tenor-gif-embed" data-postid="19618920" data-share-method="host" data-aspect-ratio="1.53846"
      data-width="100%"><a href="https://tenor.com/view/kerst-en-nieuwjaar-gif-19618920">Kerst En Nieuwjaar
         GIF</a>from <a href="https://tenor.com/search/kerst+en+nieuwjaar-gifs">Kerst En Nieuwjaar GIFs</a>
@@ -132,36 +131,46 @@
             <a
                     data-fancybox
                     data-caption="Coca-Cola Classic"
-                    href="assets/images/gallery_images/cokeGallery.png"
+                    href="assets/images/myGallery/redCoca.png"
+            <!--                    href="assets/images/gallery_images/cokeGallery.png"-->
+            <img src="assets/images/myGallery/redCoca.png" alt="gallery" style="width:60%">
+            <!--                <img src="assets/images/gallery_images/cokeGallery.png" alt="gallery" style="width:60%">-->
+            <a/>
+        </div>
+        <div class="thumbnail">
+            <a
+                    data-fancybox
+                    data-caption="Black Coke"
+                    href="assets/images/myGallery/blackCoca.png"
             >
-                <img src="assets/images/gallery_images/cokeGallery.png" alt="gallery" style="width:60%">
+                <img src="assets/images/myGallery/blackCoca.png" alt="gallery" style="width:60%">
                 <a/>
         </div>
         <div class="thumbnail">
             <a
                     data-fancybox
-                    data-caption="Diet Coke"
-                    href="assets/images/gallery_images/dietGallery.png"
+                    data-caption="yellow coca"
+                    href="assets/images/myGallery/yellowCoca.png"
             >
-                <img src="assets/images/gallery_images/dietGallery.png" alt="gallery" style="width:60%">
-                <a/>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div style="width: 100%; display: flex; flex-direction: row; justify-content: center">
-        <div class="thumbnail">
-            <a
-                    data-fancybox
-                    data-caption="Coca-Cola Classic Vanilla"
-                    href="assets/images/gallery_images/vanilaGallery.png"
-            >
-                <img src="assets/images/gallery_images/vanilaGallery.png" alt="gallery" style="width:60%">
+                <img src="assets/images/myGallery/yellowCoca.png" alt="gallery" style="width:60%">
             </a>
         </div>
     </div>
 </div>
+
+<!--<div class="container">-->
+<!--    <div style="width: 100%; display: flex; flex-direction: row; justify-content: center">-->
+<!--        <div class="thumbnail">-->
+<!--            <a-->
+<!--                    data-fancybox-->
+<!--                    data-caption="Coca-Cola Classic Vanilla"-->
+<!--                    href="assets/images/myGallery/yellowCoca.png"-->
+<!--            >-->
+<!--                <img src="assets/images/myGallery/yellowCoca.png" alt="gallery" style="width:60%">-->
+<!--            </a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <br>
 <br>
@@ -169,35 +178,46 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-4">
-            <div class="thumbnail" style="margin-left: 10px">
+        <div class="col-md-6 align-items-center">
+            <div class="thumbnail align-items-center " style="margin-left: 10px; text-align: center">
                 <a
                         data-fancybox
                         data-caption="Sprite"
-                        href="assets/images/gallery_images/spriteGallery.png"
+                        href="assets/images/myGallery/greenSprite.png"
                 >
-                    <img src="assets/images/gallery_images/spriteGallery.png" alt="gallery" style="width:60%">
+                    <img src="assets/images/myGallery/greenSprite.png" alt="gallery" style="width:60%">
                 </a>
             </div>
         </div>
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail" style="margin-left: 10px">
+        <div class="col-md-5 align-items-center">
+            <div class="thumbnail align-items-center " style="margin-left: 10px; text-align: center">
                 <a
                         data-fancybox
-                        data-caption="Sprite No Sugar"
-                        href="assets/images/gallery_images/noSugerGallery.png"
+                        data-caption="Sprite"
+                        href="assets/images/myGallery/pinkSprite.png"
                 >
-                    <img src="assets/images/gallery_images/noSugerGallery.png" alt="gallery" style="width:60%">
+                    <img src="assets/images/myGallery/pinkSprite.png" alt="gallery" style="width:60%">
                 </a>
             </div>
         </div>
+<!--        <div class="col-md-4">-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--            <div class="thumbnail" style="margin-left: 10px">-->
+<!--                <a-->
+<!--                        data-fancybox-->
+<!--                        data-caption="Sprite No Sugar"-->
+<!--                        href="assets/images/gallery_images/noSugerGallery.png"-->
+<!--                >-->
+<!--                    <img src="assets/images/gallery_images/noSugerGallery.png" alt="gallery" style="width:60%">-->
+<!--                </a>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 </div>
 <footer class="mt-auto" id="footerColor">
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        244149   - Mobile 3D Applications 2022
+        244149 - Mobile 3D Applications 2022
         <a href="javascript:changeLook()">Restyle</a> | <a
                 href="javascript:changeBack()">Reset</a>
         <a href="https://twitter.com/COCACOLAAU" style="margin-left: 10px">

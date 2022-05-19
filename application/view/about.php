@@ -58,7 +58,7 @@
     </div>
 </nav>
 <div class="aboutContainer">
-    <h3>
+    <h5>
         Student Name: Amir Hossein Goharzad
         <br>
         Candidate Number: 244149
@@ -72,9 +72,9 @@
         Tutor: Dr Imran Khan
         <br>
         Email: Imran.Khan@sussex.ac.uk
-    </h3>
+    </h5>
     <h1 style="color: #b6effb">Statement of Originality</h1>
-    <h3>
+    <h5>
         These web pages are submitted as part requirement for the degree of MSc
         <br>
         Advanced Computer Science at the
@@ -84,13 +84,14 @@
         These web pages or contents may be freely
         <br>
         copied and distributed, provided the source is acknowledged.
-    </h3>
+    </h5>
     <br>
     <h1 style="color: #b6effb">References</h1>
-    <h3>
+    <h5>
         Fonts I used in this project :
         <br>
         https://fonts.google.com/specimen/Koulen#standard-styles
+        Font awesome : https://fontawesome.com/
         <br>
         Pictures & Contents I used in this project:
         https://unsplash.com/
@@ -105,21 +106,33 @@
         Coca-cola GIF I used in the Home page:
         https://tenor.com/view/kerst-en-nieuwjaar-gif-19618920
         <br>
-        FancyBox :     https://fancyapps.com/docs/ui/fancybox/
-        Font awesome :    https://fontawesome.com/
-        https://canvas.sussex.ac.uk/courses/16964/pages/laboratory-7-mvc-framework-jquery-ajax-php-sqlite-dot-dot-dot?module_item_id=1053747
-        https://canvas.sussex.ac.uk/courses/16964/pages/laboratory-8-mvc-framework-continued-dot-dot-dot?module_item_id=1053750
+        FancyBox : https://fancyapps.com/docs/ui/fancybox/
+        <br>
         Lab 5 & 9 Samples I got inspired:
-        https://users.sussex.ac
-    </h3>
+        <br>
+        https://canvas.sussex.ac.uk/courses/16964/pages/laboratory-7-mvc-framework-jquery-ajax-php-sqlite-dot-dot-dot?module_item_id=1053747
+        <br>
+        https://canvas.sussex.ac.uk/courses/16964/pages/laboratory-8-mvc-framework-continued-dot-dot-dot?module_item_id=1053750
+        <br>
+        MVC Framework
+        <br>
+        https://canvas.sussex.ac.uk/courses/16964/pages/laboratory-7-mvc-framework-jquery-ajax-php-sqlite-dot-dot-dot?module_item_id=1053747
+        <br>
+        https://canvas.sussex.ac.uk/courses/16964/pages/laboratory-8-mvc-framework-continued-dot-dot-dot?module_item_id=1053750
+    </h5>
 
     <h1 style="color: #b6effb">About My Project</h1>
-    <h3>
+    <h5>
+        The open-source codes used in this project are declared in my code.
+
         ALL THE X3D MODELS HAVE BEEN CREATED IN CINEMA 4D, EXPORTED TO VRML97 AND CONVERTED USING THE BLENDER TO X3D FOR
-        DISPLAY ONLINE. ALSO, THIS PROJECT USED BOOTSTRAP. Moreover, this project implemented PHP beyond the labs
-        implemented CRUD (Create, Read (ReadList & Single), Update, and Delete) in Model 3D Table, and made a relational
-        database. Also, the open-source codes used in this project are declared in my code.
-    </h3>
+        DISPLAY ONLINE. ALSO, THIS PROJECT USED BOOTSTRAP.
+
+        This project developed its own APIs for the backend.
+
+        Use of a PHP database abstraction layer in the form of a lightweight framework. This project implemented PHP
+        beyond the labs; it implemented CRUD (Create, Read (ReadList & Single), Update, and Delete) in Model 3D
+    </h5>
 </div>
 <footer class="mt-auto" id="footerColor">
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
